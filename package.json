@@ -1,0 +1,13 @@
+{
+  "name": "khmc-net",
+  "version": "1.0.0",
+  "description": "KHMC.NET landing page with Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
