@@ -3,7 +3,7 @@ const path = require("path");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const HOST = process.env.HOST || "127.0.0.1";
+const HOST = process.env.HOST || "0.0.0.0";
 const DISCORD_INVITE_URL =
   process.env.DISCORD_INVITE_URL || "https://discord.gg/P7tQdXkwEX";
 
